@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=Golos+Text:wght@400;500;600;700&display=swap);
 
 * {
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -69,6 +69,13 @@ img {
     overflow: hidden;
     vertical-align: middle;
 }
+input {
+    padding-block: 0;
+    padding-inline: 0;
+    font-family: "Golos Text", sans-serif;
+    font-style: normal;
+    border: none;
+}
 
 
 header {
@@ -128,4 +135,134 @@ nav {
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 2.4rem;
+}
+
+
+.promo {
+    max-width: 192.1rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 15rem;
+    background-image: url("/img/photo1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.promo__container {
+    max-width: 120rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.promo__form {
+    max-width: 192rem;
+    width: 100%;
+    margin: 0 auto 1.45rem;
+    padding: 4.8rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+}
+.promo__search {
+    max-width: 103rem;
+    padding: 2rem 2.4rem;
+    width: 100%;
+    border-radius: 80px;
+    border: 1.6px solid #FF6007;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #9F9F9F;
+}
+.promo__search:focus {
+    outline: none;
+}
+.promo__submit {
+    cursor: pointer;
+    padding: 2rem 4rem;
+    background-color: #FF6007;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    color: #fff;
+}
+.promo__title {
+    margin-bottom: 4.8rem;
+    text-align: left;
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: 5.8rem;
+    letter-spacing: 0.096rem;
+    color: #30323A;
+}
+.products {
+    /* margin-bottom: 15rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+.products__tabbar {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: #9F9F9F;
+}
+.products__tabbar ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 4rem;
+}
+.products__tabbar ul li:hover {
+    color: #30323A;
+}
+.products__cards {
+    display: flex;
+    gap: 2.4rem;
+}
+.products__card {
+    max-width: 28.2rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.6rem;
+    padding: 2.4rem;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px rgba(255, 96, 7, 0.69);
+}
+.c_g-m {
+    color: #9F9F9F;
+}
+.products__photo {
+    padding: 0 2.4rem 0 2.5rem;
+}
+.products__code {
+    margin-bottom: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+.products__name {
+    margin-bottom: 2.4rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+}
+.products__sum {
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: #5FA800;
+    display: flex;
+    gap: 0.6rem;
+}
+.products__price {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+    letter-spacing: 0.048rem;
 }

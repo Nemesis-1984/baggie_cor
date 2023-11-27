@@ -391,7 +391,8 @@ nav {
     margin: 0 auto;
 }
 .benefits__container {
-    
+    max-width: 120rem;
+    width: 100%;
     padding: 9.6rem 36rem;
     display: flex;
     gap: 4.8rem;
@@ -408,4 +409,76 @@ nav {
     font-size: 2rem;
     font-weight: 400;
     line-height: 2.8rem;
+}
+
+
+.goods {
+    max-width: 192rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 4.1rem 48.6rem 4.2rem;
+    background-image: url("/img/photo2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.goods__container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+.goods__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+}
+.goods__card {
+    max-width: 30rem;
+    background-color: #F3F4F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(255, 96, 7, 0.69);
+}
+.goods__code {
+    margin-bottom: 0.4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+.goods__name {
+    margin-bottom: 0.6rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+}
+.goods__sum {
+    margin-bottom: 0.4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: #5FA800;
+    display: flex;
+    gap: 0.6rem;
+}
+.goods__price {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+    letter-spacing: 0.048rem;
+}
+.goods__actions {
+    border-radius: 80px;
+    padding: 2rem 4rem;
+    background-color: #FF6007;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: center;
+    width: 27rem;
 }

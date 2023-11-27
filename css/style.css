@@ -378,9 +378,34 @@ nav {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 2.8rem;
-    /* color: #30323A; */
 }
 .about__photo {
     max-width: 71.7rem;
     width: 100%;
+}
+
+
+.benefits {
+    max-width: 192rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.benefits__container {
+    
+    padding: 9.6rem 36rem;
+    display: flex;
+    gap: 4.8rem;
+}
+.benefits__item {
+    display: flex;
+    flex-direction: column;
+}
+.benefits__badge {
+    padding: 0 9.2rem 2.4rem;
+}
+.benefits p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.8rem;
 }

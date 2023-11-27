@@ -482,3 +482,126 @@ nav {
     text-align: center;
     width: 27rem;
 }
+
+
+.seo {
+    max-width: 192rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 36rem;
+}
+.seo__container {
+    max-width: 120.5rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 9.6rem 0;
+    display: flex;
+    gap: 2.4rem;
+}
+.seo__content {
+    max-width: 79.2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3.2rem;
+}
+.seo__content p {
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+}
+.seo__photo {
+    max-width: 38.4rem;
+    width: 100%;
+}
+.seo__photo img {
+    max-width: 38.4rem;
+    width: 100%;
+    padding: 4.9rem 0 1rem 0.4rem;
+}
+
+
+.footer__container {
+    max-width: 192rem;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__forms {
+    padding: 4.8rem;
+    max-width: 192rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__ask {
+    max-width: 28rem;
+    width: 100%;
+}
+.footer__form {
+    max-width: 102.6rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__tel {
+    width: 69.2rem;
+    padding: 2rem 2.4rem;
+    border-radius: 80px 0 0 80px;
+    border: 1px solid #FF6007;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #9F9F9F;
+}
+.footer__tel:focus {
+    outline: none;
+}
+.footer__submit {
+    cursor: pointer;
+    max-width: 33.4rem;
+    padding: 2rem 4rem;
+    background-color: #FF6007;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0 80px 80px 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #fff;
+}
+.footer__container p {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    letter-spacing: 0.048rem;
+}
+.footer__subscribe {
+    max-width: 24.8rem;
+    width: 100%;
+}
+.footer__icons {
+    width: 15.2rem;
+    display: flex;
+    gap: 1.6rem;
+}
+.footer__icons img {
+    display: block;
+}
+.footer__links {
+    padding: 4.8rem 0;
+    max-width: 192rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #30323A;
+}
+.footer__list {
+    padding: 0 36rem;
+}

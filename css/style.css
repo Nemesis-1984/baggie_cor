@@ -95,6 +95,13 @@ input {
     font-style: normal;
     border: none;
 }
+hr {
+    border: none;
+    height: 1px;
+    opacity: 0.2;
+    background: #D2D2D2;
+    margin-bottom: 4rem;
+}
 
 
 header {
@@ -544,6 +551,12 @@ nav {
     max-width: 28rem;
     width: 100%;
 }
+.footer__forms p {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    letter-spacing: 0.048rem;
+}
 .footer__form {
     max-width: 102.6rem;
     width: 100%;
@@ -576,12 +589,6 @@ nav {
     line-height: 2.4rem;
     color: #fff;
 }
-.footer__container p {
-    font-size: 2.4rem;
-    font-weight: 400;
-    line-height: 3.2rem;
-    letter-spacing: 0.048rem;
-}
 .footer__subscribe {
     max-width: 24.8rem;
     width: 100%;
@@ -601,7 +608,45 @@ nav {
     display: flex;
     flex-direction: column;
     background-color: #30323A;
+    position: relative;
 }
 .footer__list {
+    margin-bottom: 4rem;
     padding: 0 36rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: #D2D2D2;
+    display: flex;
+    gap: 7.8rem;
+}
+.footer__column {
+    max-width: 17.8rem;
+    width: 100%;
+}
+.footer__title {
+    margin-bottom: 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: #fff;
+}
+.footer__column li {
+    padding-bottom: 0.8rem;
+}
+.footer__column li:last-child {
+    padding-bottom: 0;
+}
+.footer__privacy {
+    padding: 0 36rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__decor_left {
+    position: absolute;
+    left: 0;
+}
+.footer__decor_right {
+    position: absolute;
+    right: 0;
 }

@@ -292,10 +292,7 @@ nav {
     width: 100%;
     margin: 0 auto;
     padding: 9.6rem 36rem;
-    background-image: url("/img/bg1.png"), url("/img/bg2.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y: center;
+    position: relative;
 }
 .catalog__container {
     max-width: 120rem;
@@ -352,6 +349,22 @@ nav {
     font-size: 2rem;
     font-weight: 400;
     line-height: 2.8rem;
+}
+.catalog__decor_left {
+    position: absolute;
+    left: 0;
+    bottom: 20.9rem;
+    opacity: 0.5;
+    mix-blend-mode: luminosity;
+    z-index: -1;
+}
+.catalog__decor_right {
+    position: absolute;
+    right: 0;
+    bottom: 20.9rem;
+    opacity: 0.5;
+    mix-blend-mode: luminosity;
+    z-index: -1;
 }
 
 
@@ -546,6 +559,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-image: url("/img/bg3_short.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .footer__ask {
     max-width: 28rem;
@@ -645,8 +662,14 @@ nav {
 .footer__decor_left {
     position: absolute;
     left: 0;
+    bottom: 0;
+    opacity: 0.5;
+    mix-blend-mode: luminosity;
 }
 .footer__decor_right {
     position: absolute;
     right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    mix-blend-mode: luminosity;
 }

@@ -216,6 +216,7 @@ nav {
 .promo__title {
     margin-bottom: 4.8rem;
 }
+
 .products {
     /* margin-bottom: 15rem; */
     display: flex;
@@ -238,6 +239,7 @@ nav {
 }
 .products__cards {
     display: flex;
+    flex-wrap: wrap;
     gap: 2.4rem;
 }
 .products__card {

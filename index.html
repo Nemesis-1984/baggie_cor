@@ -74,78 +74,298 @@
         <h1 class="promo__title">ПОПУЛЯРНЫЕ ТОВАРЫ</h1>
         <div class="products">
           <div class="products__tabbar">
-            <ul>
-              <li><a href="#">Для багги</a></li>
-              <li><a href="#">Для квадроциклов</a></li>
-              <li><a href="#">Для снегоходов</a></li>
-              <li><a href="#">Для трициклов</a></li>
-            </ul>
+            <div class="tabhead">
+              <div class="tabhead__item active"><a href="#">Для багги</a></div>
+              <div class="tabhead__item"><a href="#">Для квадроциклов</a></div>
+              <div class="tabhead__item"><a href="#">Для снегоходов</a></div>
+              <div class="tabhead__item"><a href="#">Для трициклов</a></div>
+            </div>
           </div>
-          <div class="products__cards">
-            <div class="products__card">
-              <div class="products__photo">
-                <img src="./img/img1.png" alt="product__photo" />
-              </div>
-              <div class="products__content">
-                <p class="products__code c_g-m">CA-2-3</p>
-                <p class="products__name">
-                  Сумка-вставка для ящика модульного LinQ (10 л)
-                </p>
-                <div class="products__sum">
-                  <div><img src="./img/bullet.svg" alt="" /></div>
-                  <p>В наличии 22 шт</p>
+          <div class="tabcontent">
+            <div class="products__cards tabcontent__item active">
+              <div class="products__card">
+                <div class="products__photo">
+                  <div>
+                    <div class="slider__container">
+                      <img
+                        class="slider__image1"
+                        src="./img/img1.png"
+                        alt="product__photo"
+                      />
+                    </div>
+                  </div>
+                  <div class="slider__dots">
+                    <span
+                      class="slider__dot1 active"
+                      onclick="changeIndex1(0)"
+                    ></span>
+                    <span class="slider__dot1" onclick="changeIndex1(1)"></span>
+                    <span class="slider__dot1" onclick="changeIndex1(2)"></span>
+                  </div>
                 </div>
-                <p class="products__price">30 000 ₽</p>
+                <div class="products__content">
+                  <p class="products__code c_g-m">CA-2-3</p>
+                  <p class="products__name">
+                    Сумка-вставка для ящика модульного LinQ (10 л)
+                  </p>
+                  <div class="products__sum">
+                    <div><img src="./img/bullet.svg" alt="" /></div>
+                    <p>В наличии 22 шт</p>
+                  </div>
+                  <p class="products__price">30 000 ₽</p>
+                </div>
+              </div>
+              <div class="products__card">
+                <div class="products__photo">
+                  <div>
+                    <div class="slider__container">
+                      <img
+                        class="slider__image2"
+                        src="./img/img2.png"
+                        alt="product__photo"
+                      />
+                    </div>
+                  </div>
+                  <div class="slider__dots">
+                    <span
+                      class="slider__dot2 active"
+                      onclick="changeIndex2(0)"
+                    ></span>
+                    <span class="slider__dot2" onclick="changeIndex2(1)"></span>
+                    <span class="slider__dot2" onclick="changeIndex2(2)"></span>
+                  </div>
+                </div>
+                <div class="products__content">
+                  <p class="products__code c_g-m">CA-2-3</p>
+                  <p class="products__name">
+                    Сумка-вставка для ящика модульного LinQ (10 л)
+                  </p>
+                  <div class="products__sum">
+                    <div><img src="./img/bullet.svg" alt="" /></div>
+                    <p>В наличии 22 шт</p>
+                  </div>
+                  <p class="products__price">30 000 ₽</p>
+                </div>
+              </div>
+              <div class="products__card">
+                <div class="products__photo">
+                  <div>
+                    <div class="slider__container">
+                      <img
+                        class="slider__image3"
+                        src="./img/img3.png"
+                        alt="product__photo"
+                      />
+                    </div>
+                  </div>
+                  <div class="slider__dots">
+                    <span
+                      class="slider__dot3 active"
+                      onclick="changeIndex3(0)"
+                    ></span>
+                    <span class="slider__dot3" onclick="changeIndex3(1)"></span>
+                    <span class="slider__dot3" onclick="changeIndex3(2)"></span>
+                  </div>
+                </div>
+                <div class="products__content">
+                  <p class="products__code c_g-m">CA-2-3</p>
+                  <p class="products__name">
+                    Сумка-вставка для ящика модульного LinQ (10 л)
+                  </p>
+                  <div class="products__sum">
+                    <div><img src="./img/bullet.svg" alt="" /></div>
+                    <p>В наличии 22 шт</p>
+                  </div>
+                  <p class="products__price">30 000 ₽</p>
+                </div>
+              </div>
+              <div class="products__card">
+                <div class="products__photo">
+                  <div>
+                    <div class="slider__container">
+                      <img
+                        class="slider__image4"
+                        src="./img/img4.png"
+                        alt="product__photo"
+                      />
+                    </div>
+                  </div>
+                  <div class="slider__dots">
+                    <span
+                      class="slider__dot4 active"
+                      onclick="changeIndex4(0)"
+                    ></span>
+                    <span class="slider__dot4" onclick="changeIndex4(1)"></span>
+                    <span class="slider__dot4" onclick="changeIndex4(2)"></span>
+                  </div>
+                </div>
+                <div class="products__content">
+                  <p class="products__code c_g-m">CA-2-3</p>
+                  <p class="products__name">
+                    Сумка-вставка для ящика модульного LinQ (10 л)
+                  </p>
+                  <div class="products__sum">
+                    <div><img src="./img/bullet.svg" alt="" /></div>
+                    <p>В наличии 22 шт</p>
+                  </div>
+                  <p class="products__price">30 000 ₽</p>
+                </div>
               </div>
             </div>
-            <div class="products__card">
-              <div class="products__photo">
-                <img src="./img/img2.png" alt="product__photo" />
-              </div>
-              <div class="products__content">
-                <p class="products__code c_g-m">CA-2-3</p>
-                <p class="products__name">
-                  Сумка-вставка для ящика модульного LinQ (10 л)
-                </p>
-                <div class="products__sum">
-                  <div><img src="./img/bullet.svg" alt="" /></div>
-                  <p>В наличии 22 шт</p>
+            <!-- <div class="products__cards tabcontent__item">
+              <div class="products__card">
+                <div class="products__photo">
+                  <div>
+                    <div class="slider__container">
+                      <img
+                        class="slider__image"
+                        src="./img/img4.png"
+                        alt="product__photo"
+                      />
+                    </div>
+                  </div>
+                  <div class="slider__dots">
+                    <span
+                      class="slider__dot active"
+                      onclick="changeIndex(0)"
+                    ></span>
+                    <span
+                      class="slider__dot"
+                      onclick="changeIndex(1)"
+                    ></span>
+                    <span
+                      class="slider__dot"
+                      onclick="changeIndex(2)"
+                    ></span>
+                  </div>
                 </div>
-                <p class="products__price">30 000 ₽</p>
-              </div>
-            </div>
-            <div class="products__card">
-              <div class="products__photo">
-                <img src="./img/img3.png" alt="product__photo" />
-              </div>
-              <div class="products__content">
-                <p class="products__code c_g-m">CA-2-3</p>
-                <p class="products__name">
-                  Сумка-вставка для ящика модульного LinQ (10 л)
-                </p>
-                <div class="products__sum">
-                  <div><img src="./img/bullet.svg" alt="" /></div>
-                  <p>В наличии 22 шт</p>
+                <div class="products__content">
+                  <p class="products__code c_g-m">CA-2-3</p>
+                  <p class="products__name">
+                    Сумка-вставка для ящика модульного LinQ (10 л)
+                  </p>
+                  <div class="products__sum">
+                    <div><img src="./img/bullet.svg" alt="" /></div>
+                    <p>В наличии 22 шт</p>
+                  </div>
+                  <p class="products__price">30 000 ₽</p>
                 </div>
-                <p class="products__price">30 000 ₽</p>
               </div>
-            </div>
-            <div class="products__card">
-              <div class="products__photo">
-                <img src="./img/img4.png" alt="product__photo" />
-              </div>
-              <div class="products__content">
-                <p class="products__code c_g-m">CA-2-3</p>
-                <p class="products__name">
-                  Сумка-вставка для ящика модульного LinQ (10 л)
-                </p>
-                <div class="products__sum">
-                  <div><img src="./img/bullet.svg" alt="" /></div>
-                  <p>В наличии 22 шт</p>
+              <div class="products__card">
+                <div class="products__photo">
+                  <div>
+                    <div class="slider__container">
+                      <img
+                        class="slider__image"
+                        src="./img/img2.png"
+                        alt="product__photo"
+                      />
+                    </div>
+                  </div>
+                  <div class="slider__dots">
+                    <span
+                      class="slider__dot active"
+                      onclick="changeIndex(0)"
+                    ></span>
+                    <span
+                      class="slider__dot"
+                      onclick="changeIndex(1)"
+                    ></span>
+                    <span
+                      class="slider__dot22"
+                      onclick="changeIndex(2)"
+                    ></span>
+                  </div>
                 </div>
-                <p class="products__price">30 000 ₽</p>
+                <div class="products__content">
+                  <p class="products__code c_g-m">CA-2-3</p>
+                  <p class="products__name">
+                    Сумка-вставка для ящика модульного LinQ (10 л)
+                  </p>
+                  <div class="products__sum">
+                    <div><img src="./img/bullet.svg" alt="" /></div>
+                    <p>В наличии 22 шт</p>
+                  </div>
+                  <p class="products__price">30 000 ₽</p>
+                </div>
               </div>
-            </div>
+              <div class="products__card">
+                <div class="products__photo">
+                  <div>
+                    <div class="slider__container">
+                      <img
+                        class="slider__image"
+                        src="./img/img3.png"
+                        alt="product__photo"
+                      />
+                    </div>
+                  </div>
+                  <div class="slider__dots">
+                    <span
+                      class="slider__dot active"
+                      onclick="changeIndex(0)"
+                    ></span>
+                    <span
+                      class="slider__dot"
+                      onclick="changeIndex(1)"
+                    ></span>
+                    <span
+                      class="slider__dot"
+                      onclick="changeIndex(2)"
+                    ></span>
+                  </div>
+                </div>
+                <div class="products__content">
+                  <p class="products__code c_g-m">CA-2-3</p>
+                  <p class="products__name">
+                    Сумка-вставка для ящика модульного LinQ (10 л)
+                  </p>
+                  <div class="products__sum">
+                    <div><img src="./img/bullet.svg" alt="" /></div>
+                    <p>В наличии 22 шт</p>
+                  </div>
+                  <p class="products__price">30 000 ₽</p>
+                </div>
+              </div>
+              <div class="products__card">
+                <div class="products__photo">
+                  <div>
+                    <div class="slider__container">
+                      <img
+                        class="slider__image"
+                        src="./img/img4.png"
+                        alt="product__photo"
+                      />
+                    </div>
+                  </div>
+                  <div class="slider__dots">
+                    <span
+                      class="slider__dot active"
+                      onclick="changeIndex(0)"
+                    ></span>
+                    <span
+                      class="slider__dot"
+                      onclick="changeIndex(1)"
+                    ></span>
+                    <span
+                      class="slider__dot"
+                      onclick="changeIndex(2)"
+                    ></span>
+                  </div>
+                </div>
+                <div class="products__content">
+                  <p class="products__code c_g-m">CA-2-3</p>
+                  <p class="products__name">
+                    Сумка-вставка для ящика модульного LinQ (10 л)
+                  </p>
+                  <div class="products__sum">
+                    <div><img src="./img/bullet.svg" alt="" /></div>
+                    <p>В наличии 22 шт</p>
+                  </div>
+                  <p class="products__price">30 000 ₽</p>
+                </div>
+              </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -226,6 +446,75 @@
                 </p>
               </div>
             </div>
+            <!-- <div></div> -->
+            <!-- <div class="tabcontent__item">
+              <div class="catalog__card">
+                <div class="catalog__photo">
+                  <img src="./img/img5.png" alt="product__photo" />
+                </div>
+                <div class="catalog__content">
+                  <h2 class="catalog__name">БАГГИ</h2>
+                  <p class="catalog__description">
+                    Коллекция запчастей для багги
+                  </p>
+                </div>
+              </div>
+              <div class="catalog__card">
+                <div class="catalog__photo">
+                  <img src="./img/img6.png" alt="product__photo" />
+                </div>
+                <div class="catalog__content">
+                  <h2 class="catalog__name">КВАДРОЦИКЛЫ</h2>
+                  <p class="catalog__description">
+                    Коллекция запчастей для квадро
+                  </p>
+                </div>
+              </div>
+              <div class="catalog__card">
+                <div class="catalog__photo">
+                  <img src="./img/img7.png" alt="product__photo" />
+                </div>
+                <div class="catalog__content">
+                  <h2 class="catalog__name">ГИДРОЦИКЛЫ</h2>
+                  <p class="catalog__description">
+                    Коллекция запчастей для гидро
+                  </p>
+                </div>
+              </div>
+              <div class="catalog__card">
+                <div class="catalog__photo">
+                  <img src="./img/img8.png" alt="product__photo" />
+                </div>
+                <div class="catalog__content">
+                  <h2 class="catalog__name">СНЕГОХОДЫ</h2>
+                  <p class="catalog__description">
+                    Коллекция запчастей для багги
+                  </p>
+                </div>
+              </div>
+              <div class="catalog__card">
+                <div class="catalog__photo">
+                  <img src="./img/img9.png" alt="product__photo" />
+                </div>
+                <div class="catalog__content">
+                  <h2 class="catalog__name">ТРИЦИКЛЫ</h2>
+                  <p class="catalog__description">
+                    Коллекция запчастей для квадро
+                  </p>
+                </div>
+              </div>
+              <div class="catalog__card">
+                <div class="catalog__photo">
+                  <img src="./img/img10.png" alt="product__photo" />
+                </div>
+                <div class="catalog__content">
+                  <h2 class="catalog__name">АКСЕССУАРЫ</h2>
+                  <p class="catalog__description">
+                    Стильные и полезные аксессуары
+                  </p>
+                </div>
+              </div>
+            </div> -->
           </div>
           <div class="catalog__decor_left">
             <img src="./img/bg5.png" alt="" />

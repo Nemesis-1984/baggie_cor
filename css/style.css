@@ -293,7 +293,7 @@ nav {
     max-width: 192rem;
     width: 100%;
     margin: 0 auto;
-    padding: 9.6rem 36rem;
+    padding: 9.6rem 0;
     position: relative;
 }
 .catalog__container {
@@ -348,6 +348,8 @@ nav {
     margin-bottom: 0.8rem;
 }
 .catalog__description {
+    max-width: 80%;
+    margin: 0 auto;
     font-size: 2rem;
     font-weight: 400;
     line-height: 2.8rem;
@@ -374,9 +376,8 @@ nav {
     max-width: 192rem;
     width: 100%;
     margin: 0 auto;
-    padding: 0 35.5rem 5.1rem 36rem;
     background-image: url("/img/bg3.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .about__container {
@@ -415,7 +416,8 @@ nav {
 .benefits__container {
     max-width: 120rem;
     width: 100%;
-    padding: 9.6rem 36rem;
+    margin: 0 auto;
+    padding: 9.6rem 0;
     display: flex;
     gap: 4.8rem;
 }
@@ -438,13 +440,16 @@ nav {
     max-width: 192rem;
     width: 100%;
     margin: 0 auto;
-    padding: 4.1rem 48.6rem 4.2rem;
+    padding: 4.1rem 0;
     background-image: url("/img/photo2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .goods__container {
+    max-width: 95rem;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
@@ -510,7 +515,6 @@ nav {
     max-width: 192rem;
     width: 100%;
     margin: 0 auto;
-    padding: 0 36rem;
 }
 .seo__container {
     max-width: 120.5rem;
@@ -518,6 +522,7 @@ nav {
     margin: 0 auto;
     padding: 9.6rem 0;
     display: flex;
+    justify-content: space-between;
     gap: 2.4rem;
 }
 .seo__content {
@@ -560,6 +565,7 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    gap: 4rem;
     align-items: center;
     background-image: url("/img/bg3_short.png");
     background-size: cover;
@@ -576,6 +582,12 @@ nav {
     line-height: 3.2rem;
     letter-spacing: 0.048rem;
 }
+.footer__form-container {
+    max-width: 102.6rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 .footer__form {
     max-width: 102.6rem;
     width: 100%;
@@ -583,7 +595,9 @@ nav {
     justify-content: space-between;
 }
 .footer__tel {
-    width: 69.2rem;
+    max-width: 69.2rem;
+    min-width: 25rem;
+    width: 100%;
     padding: 2rem 2.4rem;
     border-radius: 80px 0 0 80px;
     border: 1px solid #FF6007;
@@ -599,10 +613,12 @@ nav {
 .footer__submit {
     cursor: pointer;
     max-width: 33.4rem;
-    padding: 2rem 4rem;
+    width: 100%;
+    padding: 2rem 3.8rem;
     background-color: #FF6007;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 0 80px 80px 0;
+    border: 1px solid #FF6007;
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 2.4rem;
@@ -630,13 +646,15 @@ nav {
     position: relative;
 }
 .footer__list {
-    margin-bottom: 4rem;
-    padding: 0 36rem;
+    max-width: 120rem;
+    width: 100%;
+    margin: 0 auto 4rem;
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 2rem;
     color: #D2D2D2;
     display: flex;
+    justify-content: space-between;
     gap: 7.8rem;
 }
 .footer__column {
@@ -657,7 +675,9 @@ nav {
     padding-bottom: 0;
 }
 .footer__privacy {
-    padding: 0 36rem;
+    max-width: 120rem;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -674,4 +694,11 @@ nav {
     bottom: 0;
     opacity: 0.5;
     mix-blend-mode: luminosity;
+}
+
+
+@media(max-width:1300px) {
+    header {
+        max-width: 110rem;
+    }
 }
